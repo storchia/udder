@@ -1,0 +1,19 @@
+.long-space-y {
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+
+.long-space-b {
+  margin-bottom: 8%;
+}
+
+.modo-de-uso-video {
+  height: 412px !important;
+}
+
+.anchor {
+  display: block;
+  height: 92px;
+  margin-top: -92px;
+  visibility: hidden;
+}

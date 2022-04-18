@@ -1,3 +1,7 @@
+.header-container .header-nav .nav li > a {
+  font-size: 1.2em !important;
+}
+
 .long-space-y {
   margin-top: 10%;
   margin-bottom: 8%;

@@ -27,6 +27,19 @@
   margin: auto;
 }
 
+.cow {
+  width: 41.8%;
+}
+
+.spray {
+  margin-left: 10%;
+  width: 30%;
+}
+
+.check {
+  width: 32%;
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .background-image-wrapper {
     background-image: url(../img/mobile1.jpg) !important;

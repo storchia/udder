@@ -2,6 +2,21 @@
   font-size: 1.2em !important;
 }
 
+.owl-nav {
+  top: 40% !important;
+}
+
+.owl-carousel.nav-dark.nav-style-1 .owl-nav .owl-next,
+.owl-carousel.nav-dark.nav-style-1 .owl-nav .owl-prev {
+  color: white !important;
+}
+
+.owl-prev,
+.owl-next {
+  font-size: 30px !important;
+  font-weight: bold !important;
+}
+
 .long-space-y {
   margin-top: 10%;
   margin-bottom: 8%;
@@ -28,7 +43,7 @@
 }
 
 .cow {
-  width: 41.8%;
+  width: 50.2%;
 }
 
 .spray {
@@ -48,13 +63,28 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .background-image-wrapper {
-    background-image: url(../img/mobile1.jpg) !important;
+    background-image: url(../img/mobile1_d.png) !important;
   }
 }
 
 @media screen and (max-width: 600px) {
   .background-image-wrapper {
-    background-image: url(../img/mobile1.jpg) !important;
+    background-image: url(../img/mobile1_d.png) !important;
+  }
+
+  .owl-carousel.nav-inside.nav-inside-plus .owl-nav button.owl-prev {
+    left: 0;
+  }
+  .owl-carousel.nav-inside.nav-inside-plus .owl-nav button.owl-next {
+    right: 30px;
+    left: 88%;
+  }
+  .h1-mobile {
+    margin-top: 20%;
+    font-size: 2em !important;
+  }
+  .h1-aceite {
+    margin-top: 40%;
   }
 }
 

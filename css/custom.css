@@ -55,6 +55,14 @@
   width: 32%;
 }
 
+.card-usos {
+  margin-bottom: 7%;
+}
+
+.img-fluid {
+  width: 90%;
+}
+
 @media (max-width: 992px) {
   .d-none-lg-slide {
     display: none !important;

@@ -63,6 +63,10 @@
   width: 90%;
 }
 
+.lh-l {
+  line-height: 2.2em !important;
+}
+
 @media (max-width: 992px) {
   .d-none-lg-slide {
     display: none !important;
@@ -90,9 +94,13 @@
   .h1-mobile {
     margin-top: 20%;
     font-size: 2em !important;
+    line-height: 2.2em !important;
   }
   .h1-aceite {
     margin-top: 40%;
+  }
+  .fw-mobile {
+    font-weight: 600 !important;
   }
 }
 
